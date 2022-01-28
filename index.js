@@ -1,7 +1,7 @@
 //variables
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = require('./generateMarkdown')
+const generatereadme = require('./generateMarkdown')
 // array of questions for user input
 const questions = [
     {
@@ -29,8 +29,7 @@ const questions = [
         message:"What license would you like your project to have?",
         choices: [
             "MIT",
-            "MPL",
-            "GNU",
+            "MPL 2.0",
             "Apache 2.0",
             "Unlicense",
         ],
@@ -58,8 +57,11 @@ const questions = [
     },
 ];
 
+function response(){
 inquirer.prompt(questions).then((response) => {
     console.log(response)
-    fs.writeFile('readme.md', generateMarkdown(response),() =>
+    fs.writeFile('readme.md', generatereadme(response),() =>
     console.log('Resonse recorded to readme file.'));
 });
+}
+response();
