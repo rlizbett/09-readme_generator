@@ -22,5 +22,8 @@
     No contributors yet
 ## Questions
     Connect with me on Github: https://github.com/rlizbett  or contact me for any other questions rlizbett@gmail.com. 
+ 
+*Screenshot of the questions*
+<img width="1128" alt="Screenshot 2022-01-28 173727" src="https://user-images.githubusercontent.com/93292915/151635888-8939fec6-62c2-4602-ae45-9d2e73399313.png">
     
  Link to Demo: https://drive.google.com/file/d/13BVSWTGzgOKi64nriL1V5GsG1I4-hpVx/view?usp=sharing
