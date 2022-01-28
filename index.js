@@ -2,7 +2,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 const generatereadme = require('./generateMarkdown')
-// array of questions for user input
+//array of questions for user input
 const questions = [
     {
         type: 'input',
