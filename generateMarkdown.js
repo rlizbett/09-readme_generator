@@ -29,27 +29,29 @@ function generatereadme(pop) {
 // THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
 function userResponses(response){
     return `# ${response.project_name}
-    # Table of Contents
-        * [Description](#description)
-        * [License](#license)
-        * [Tests](#tests)
-        * [Dependencies](#dependencies)
-        * [Usage](#usage)
-        * [Contribution](#contributions)
-        * [Questions](#questions)
-    # Description
+## Table of Contents
+* [Description](#description)
+* [License](#license)
+* [Tests](#tests)
+* [Dependencies](#dependencies)
+* [Usage](#usage)
+* [Contribution](#contributions)
+* [Questions](#questions)
+
+ ## Description 
     ${response.description}
-    # License
+## License 
     ${response.license}
-    # Tests
+## Tests 
     ${response.test}
-    # Dependencies
+## Dependencies 
     ${response.dependencies}
-    # Usage
+## Usage 
     ${response.use}
-    # Contributions
+## Contributions 
     ${response.contribute}
-    # Questions `
+## Questions
+    Connect with me on Github: https://github.com/${response.github}  or contact me for any other questions ${response.email} `
 }
 // WHEN I enter my GitHub username
 // THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
